@@ -1,0 +1,12 @@
+.student-container {
+    width: 95% ;
+    margin: 0 auto;
+    border: 1px solid green;
+    margin-top: 2px;
+    text-align: left;
+}
+
+.students-reprobate {
+    color: red;
+    font-weight: bolder
+}
