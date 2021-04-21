@@ -7,7 +7,7 @@ import Hombre from './hombre.png';
     return (
       <div className ='student-container'>
         {props.student.name}
-        {'-----------'}
+        {'  '}
 
         {
           props.student.score <3
@@ -18,7 +18,7 @@ import Hombre from './hombre.png';
           :
           <span>{props.student.score}</span>
         }
- {'-----------'}
+ {'  '}
 {
           props.student.gender == 'Female'
           ?
